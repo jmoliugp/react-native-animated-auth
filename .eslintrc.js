@@ -19,6 +19,7 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
+    'jest',
     'prettier',
     'simple-import-sort',
     'sort-keys-fix',
@@ -33,7 +34,7 @@ module.exports = {
       },
     ],
     curly: 'off',
-    'no-duplicate-imports': ['error', {includeExports: true}],
+    'no-duplicate-imports': ['error', { includeExports: true }],
     'no-nested-ternary': 'error',
     'no-shadow': 'off',
     'react-hooks/exhaustive-deps': 'off',
